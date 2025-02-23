@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    position: relative;
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 0px 15px;
+    z-index: 10px;
+}
+.Cierre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Separador6{
+    border-top: 2px solid #C94EF6;
+}

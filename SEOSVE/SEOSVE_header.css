@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+header{
+    height: auto;
+    width: 100%;
+    top: 0px;
+    z-index: 10px;
+}
+.Contenedor_RRSS{
+    display: flex;
+    justify-content: center;
+}
+.RRSS{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    width: 100%;
+    max-width: 1140px;
+    padding: 7px 10px;
+    gap: 10px;
+}
+.RRSS li{
+    margin: 0px 5px;
+}
+.Banner1{
+    display: flex;
+    justify-content: center;
+}
+.Banner1_Caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px 10px;
+}
+.Banner1_Caja_Menú{
+    display: flex;
+    list-style: none;
+    gap: 13px;
+}
+.Banner1_Caja_Menú li{
+    transition: 0.5s ease-in-out;
+}
+.Banner1_Caja_Menú li a:hover{
+    color: #b6ff36;
+}
+.Banner1_Caja_Menú_Submenú{
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+li:hover > ul{
+    display: block;
+}
+.Banner2{
+    display: flex;
+    justify-content: center;
+}
+.Banner2_Caja{
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    padding: 40px 0px 20px;
+    border-bottom: 30px solid #ffffff00;
+}
+.Separador1{
+    border-bottom: 2px solid #ffffff;
+}
+.Separador2{
+    border-bottom: 2px solid #ffffff;
+}
+.Separador3{
+    border-bottom: 2px solid #C94EF6;
+}
+.Separador4{
+    border-bottom: 2px solid #90FD05;
+}
+.Separador5{
+    border-bottom: 2px solid #FDCC1D;
+}

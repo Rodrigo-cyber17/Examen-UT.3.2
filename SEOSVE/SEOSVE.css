@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 2fr 2.3fr 80px;
+    background-color: #171717;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font: 16px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-weight: 700;
+    padding: 0px, 13px;
+}
+.RRSS a:hover{
+    font: 20px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    color: #b6ff36;
+}
+main a{
+    color: #171717;
+}
+h1{
+    font-size: 2em;
+    font: 40px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    color: #ffffff;
+
+}
+h2{
+    font: 34px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-size: 2em;
+    margin: 0px, 0px, 20px;
+}
+h3{
+    font: 29px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+h4{
+    font: 25px "Times New Roman", Times, "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+}
+p{
+    font: 18px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    text-transform: none;
+}
+.Cierre p{
+    color: #ffffff;
+}
+.Enlace{
+    font: 18px "Poppins", "Chakra Petch", "Saira", "Helvetica", "Arial", "sans-serif";
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: underline wavy;
+}
+.Enlace:hover{
+    color: #b6ff36;
+}
+img{
+    width: 65px;
+    height: 65px;
+}
+.Banner1_Caja_Logo img{
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+}
+time{
+    line-height: 1.2;
+    color: #ffffff;
+}
